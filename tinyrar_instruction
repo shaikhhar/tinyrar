@@ -1,0 +1,25 @@
+tinyrar.c commands
+
+1. COMPILE
+
+	Go to the directory where tinyrar.c is located from command then use below command to compile
+		gcc tinyrar.c -o tinyrar
+
+2.Add file to a tinyrar archive:
+	./tinyrar -a (full path of directory where archive is to saved with archive name) (full path of file to be stored)
+
+	Eg:(Note sbasnet below is the archive name)
+	./tinyrar -a /home/skr007/Desktop/sbasnet /home/skr007/Desktop/5kbandless/crawl.py
+
+3.List files in an archive
+	./tinyrar -l (full path of archive)
+
+	Eg:(Note sbasnet below is the archive name)
+	./tinyrar -l /home/skr007/Desktop/sbasnet
+	
+4.Extract a file from the archive
+
+	./tinyrar -e (full path of archive) (name of a file)
+	
+	Eg:
+	./tinyrar -e /home/skr007/Desktop/sbasnet d2lbanner.png
