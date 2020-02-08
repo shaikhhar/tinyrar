@@ -8,18 +8,18 @@ tinyrar.c commands
 2.Add file to a tinyrar archive:
 	./tinyrar -a (full path of directory where archive is to saved with archive name) (full path of file to be stored)
 
-	Eg:(Note sbasnet below is the archive name)
-	./tinyrar -a /home/skr007/Desktop/sbasnet /home/skr007/Desktop/5kbandless/crawl.py
+	Eg:(Note myArchive below is the archive name)
+	./tinyrar -a /home/skr007/Desktop/myArchive /home/skr007/Desktop/5kbandless/crawl.py
 
 3.List files in an archive
 	./tinyrar -l (full path of archive)
 
-	Eg:(Note sbasnet below is the archive name)
-	./tinyrar -l /home/skr007/Desktop/sbasnet
+	Eg:(Note myArchive below is the archive name)
+	./tinyrar -l /home/skr007/Desktop/myArchive
 	
 4.Extract a file from the archive
 
 	./tinyrar -e (full path of archive) (name of a file)
 	
 	Eg:
-	./tinyrar -e /home/skr007/Desktop/sbasnet d2lbanner.png
+	./tinyrar -e /home/skr007/Desktop/myArchive d2lbanner.png
